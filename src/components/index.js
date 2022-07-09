@@ -1,7 +1,8 @@
-import Navbar from "./Navbar.component";
-import Footer from "./Footer.component";
-import HeroBanner from "./HeroBanner.component";
-import Exercises from "./Exercises.component";
-import SearchBar from "./SearchBar.component";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import HeroBanner from "./HeroBanner";
+import Exercises from "./Exercises";
+import SearchExercises from "./SearchExercises";
+import HorizontalScrollbar from "./HorizontalScrollbar";
 
-export { Navbar, Footer, HeroBanner, Exercises, SearchBar };
+export { Navbar, Footer, HeroBanner, Exercises, SearchExercises, HorizontalScrollbar };
