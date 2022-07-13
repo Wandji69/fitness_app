@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 
-import HeroBannerImage from "../assets/images/banner.png";
+import HeroBannerImage from "../assets/images/loganm.png";
 
 const HeroBanner = () => {
   return (
@@ -42,7 +42,7 @@ const HeroBanner = () => {
           opacity: 0.1,
           display: { lg: "block", xs: "none" },
         }}
-        fontSize="200px"
+        fontSize="150px"
       >
         Exercise
       </Typography>
