@@ -5,5 +5,21 @@ import Exercises from "./Exercises";
 import SearchExercises from "./SearchExercises";
 import HorizontalScrollbar from "./HorizontalScrollbar";
 import ExerciseCard from "./ExerciseCard";
+import Detail from "./Detail";
+import SimilarExercises from "./SimilarExercises";
+import ExerciseVideos from "./ExerciseVideos";
+import Loader from "./Loader";
 
-export { ExerciseCard, Navbar, Footer, HeroBanner, Exercises, SearchExercises, HorizontalScrollbar };
+export {
+	Loader,
+	Detail,
+	SimilarExercises,
+	ExerciseVideos,
+	ExerciseCard,
+	Navbar,
+	Footer,
+	HeroBanner,
+	Exercises,
+	SearchExercises,
+	HorizontalScrollbar,
+};

@@ -1,14 +1,12 @@
+/* eslint-disable import/no-cycle */
 import React, { useState, useEffect } from "react";
-import { Pagination } from "@mui/material/Pagination";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography, Pagination } from "@mui/material";
 import { exerciseOptions, fetchData } from "../utils/fetchData";
-import { ExerciseCard } from "../components";
+import { ExerciseCard } from ".";
 import { paginate, setCurrentPage } from "../utils/paginate";
 import { base_url } from "../utils/base_url/base_url";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
-	console.log(exercises);
-
 	const currentPage = useState(setCurrentPage);
 	const exercisesPerPage = 12;
 
